@@ -3,7 +3,7 @@ const client = new Discord.Client({ intents: ["GUILDS", "GUILD_MESSAGES"] })
 const Ytdl = require('ytdl-core');
 
 
-const TOKEN = 'OTUwMDMwOTU0OTE3OTQ5NDQw.YiS_Rg.3uF5vsDET-9-a1PMupeMl1tMMFE';
+const TOKEN = '**';
 let estouPronto = false;
 
 client.on("ready", ()=> {
