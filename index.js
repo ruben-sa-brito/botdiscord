@@ -1,3 +1,9 @@
+// @discordjs/voice@0.10.0  
+// ├── discord.js@11.5.1        
+// ├── ffmpeg-static@4.3.0      
+// ├── opusscript@0.0.6
+// └── ytdl-core@4.11.0
+
 const Discord = require('discord.js');
 const client = new Discord.Client({ intents: ["GUILDS", "GUILD_MESSAGES"] })
 const Ytdl = require('ytdl-core');
